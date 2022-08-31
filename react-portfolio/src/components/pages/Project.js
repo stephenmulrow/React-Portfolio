@@ -17,7 +17,8 @@ export default function Project() {
       <h5 class="card-title">Market Moment</h5>
       <p class="card-text">A financial application where users can monitor the price of their favorite stocks. Uses Javascripts and Third-Party APIs.</p>
       <img src= {marketMoment} alt="screenshot of market moment" id="images"></img>
-      <a href="https://brandtdavidson.github.io/interactive-stock/" target="blank" class="btn btn-primary">Take a Look</a>
+      <a href="https://brandtdavidson.github.io/interactive-stock/" target="blank" class="btn btn-secondary
+">Take a Look</a>
       
     </div>
   </div>
@@ -29,7 +30,7 @@ export default function Project() {
       <h5 class="card-title">Social Network API</h5>
       <img src= {socialNetwork} alt="screenshot of social network api" id="images"></img>
       <p class="card-text">A back-end social media platform that allows users to create profiles, add comments, see friends in their feed, and more. Built using Express, MongoDB, and Mongoose.</p>
-      <a href="https://github.com/stephenmulrow/Social-Network-API" target="blank" class="btn btn-$gray-700
+      <a href="https://github.com/stephenmulrow/Social-Network-API" target="blank" class="btn btn-secondary
 ">Take a Look</a>
     </div>
   </div>

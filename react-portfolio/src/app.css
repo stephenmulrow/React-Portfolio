@@ -14,3 +14,14 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-wall.pn
   display: flex;
   border-radius: 25px;
 }
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 50px;
+  background-color: rgb(68, 66, 66);
+  color: white;
+  text-align: center;
+}
