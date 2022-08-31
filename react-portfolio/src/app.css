@@ -1,0 +1,16 @@
+.background {
+  background-color: #e3d4ad;
+background-image: url("https://www.transparenttextures.com/patterns/dark-wall.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+#header {
+  background-color: #E3D4AD
+}
+
+#images {
+  height: auto;
+  width: 500px;
+  display: flex;
+  border-radius: 25px;
+}
