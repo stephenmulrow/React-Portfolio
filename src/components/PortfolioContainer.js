@@ -24,7 +24,7 @@ export default function PortfolioContainer() {
               {/* Define routes using the Route component to render different page components at different paths */}
               {/* Define a default route that will render the Home component */}
               <Route 
-                path="/" 
+                path="/React-Portfolio/" 
                 element={<About />} 
               />
               {/* Define a route that will take in variable data */}
