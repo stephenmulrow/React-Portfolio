@@ -1,35 +1,32 @@
 import React from "react";
 import { Link } from 'react-router-dom';
 
+const styles = {
+  p: {
+    fontSize: 45,
+    fontFamily: "serif",
+    fontColor: "black"
+  },
+  subP: {
+    fontSize: 25,
+    fontFamily: "serif",
+    fontStyle: "italic"
+  }
+}
 
 export default function Navigation(){
   return(
     <main>
-{/*      
-      <nav>
-        <ul>
-          <a href='about'>
-          <li>About</li>
-          </a>
-          <a href='portfolio'>           <li>Portfolio</li>
-          </a>
-          <a href='resume'>
-          <li>Resume</li>
-          </a>
-          <a href="contact">
-          <li>Contact</li>
-          </a>
-          
-        </ul>
-      </nav> */}
-      <nav class="navbar navbar-expand-lg bg-light">
-  <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg" id="header-bg">
+  <div class="container-fluid" id="navList">
     <a class="navbar-brand" href="#"></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+      <p className="p" style={styles.p}>Stephen Mulrow
+        <footer class="blockquote-footer" className="subP" style={styles.subP}>Full-Stack Developer</footer></p>
+      <ul class="navbar-nav" id="navList">
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="/">Home</a>
         </li>

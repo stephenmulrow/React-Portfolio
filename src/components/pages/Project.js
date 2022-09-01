@@ -9,7 +9,7 @@ import workdayScheduler from '../../images/workday-scheduler.png'
 export default function Project() {
   return (
     <main>
-    <div class="card">
+    <div class="card" id="header-bg">
     <div class="card-header">
       Featured
     </div>
@@ -22,7 +22,7 @@ export default function Project() {
       
     </div>
   </div>
-  <div class="card">
+  <div class="card" id="header-bg">
     <div class="card-header">
       Featured
     </div>
@@ -34,7 +34,7 @@ export default function Project() {
 ">Take a Look</a>
     </div>
   </div>
-  <div class="card">
+  <div class="card" id="header-bg">
     <div class="card-header">
       Featured
     </div>
@@ -46,7 +46,7 @@ export default function Project() {
 ">Take a Look</a>
     </div>
   </div>
-  <div class="card">
+  <div class="card" id="header-bg">
     <div class="card-header">
       Featured
     </div>
@@ -59,7 +59,7 @@ https://stephenmulrow.github.io/Weather-Dashboard/" target="blank" class="btn bt
 ">Take a Look</a>
     </div>
   </div>
-  <div class="card">
+  <div class="card" id="header-bg">
     <div class="card-header">
       Featured
     </div>
@@ -71,7 +71,7 @@ https://stephenmulrow.github.io/Weather-Dashboard/" target="blank" class="btn bt
 ">Take a Look</a>
     </div>
   </div>
-  <div class="card">
+  <div class="card" id="header-bg">
     <div class="card-header">
       Featured
     </div>

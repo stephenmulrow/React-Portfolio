@@ -5,8 +5,17 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-wall.pn
 }
 
 #header {
-  background-color: #E3D4AD
+  background-color: #e3d4ad;
+  background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
+
+#header-bg {
+  background-color: #e3d4ad;
+background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
 
 #images {
   height: auto;
@@ -21,7 +30,42 @@ background-image: url("https://www.transparenttextures.com/patterns/dark-wall.pn
   bottom: 0;
   width: 100%;
   height: 50px;
-  background-color: rgb(68, 66, 66);
   color: white;
   text-align: center;
+  justify-content: space-between;
+}
+
+.footer-contents {
+  display: flex;
+  justify-content:space-evenly;
+}
+
+#stack {
+  position: fixed;
+  left: 50;
+  bottom: 100;
+  text-align: start;
+}
+
+.card2 {
+  position: RELATIVE;
+  bottom: 495px;
+  left: 563px;
+}
+
+.list2 {
+  position: relative;
+  bottom: 161px;
+  left: 250px;
+}
+
+.header-tite {
+  font-size: 285px;
+}
+
+#navList {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  font-size: large;
 }

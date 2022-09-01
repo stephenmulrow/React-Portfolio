@@ -8,13 +8,13 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
+
 export default function PortfolioContainer() {
   
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
       <Navigation />
-      <Header />
       <Router>
         <div className="flex-column justify-flex-start min-100-vh" id="header">
           
