@@ -3,7 +3,7 @@ import Footer from "./pages/Footer"
 import Navigation from "./Navigation"
 import Project from "./pages/Project"
 import About from "./pages/About"
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { HashRouter as Router, Route, Routes } from 'react-router-dom';
 import Resume from "./pages/Resume";
 import Contact from "./pages/Contact";
 
@@ -23,28 +23,28 @@ export default function PortfolioContainer() {
               {/* Define routes using the Route component to render different page components at different paths */}
               {/* Define a default route that will render the Home component */}
               <Route 
-                path="/" 
+                exact path="/" 
                 element={<About />} 
               />
               <Route 
                 path="/about" 
                 element={<About />} 
               />
-              <Route 
+              {/* <Route 
                 path="/React-Portfolio" 
                 element={<About />} 
-              />
+              /> */}
               {/* Define a route that will take in variable data */}
                <Route 
-                path="/React-Portfolio/contact" 
+                path="/contact" 
                 element={<Contact />} 
               />
               <Route
-                path="/React-Portfolio/portfolio"
+                path="/portfolio"
                 element={<Project />}
                 />
               <Route
-                path="/React-Portfolio/resume"
+                path="/resume"
                 element={<Resume />}
                 /> 
             </Routes>

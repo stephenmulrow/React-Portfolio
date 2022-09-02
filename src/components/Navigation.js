@@ -31,13 +31,13 @@ export default function Navigation(){
           <a class="nav-link active" aria-current="page" href="/React-Portfolio">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="portfolio">Projects</a>
+          <a class="nav-link" href="#portfolio">Projects</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="resume">Resume</a>
+          <a class="nav-link" href="#resume">Resume</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="contact">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
