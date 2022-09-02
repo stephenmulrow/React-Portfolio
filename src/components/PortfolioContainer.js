@@ -1,5 +1,4 @@
-import React, { useState } from "react"
-import Header from "./pages/Header"
+import React from "react"
 import Footer from "./pages/Footer"
 import Navigation from "./Navigation"
 import Project from "./pages/Project"
@@ -14,8 +13,8 @@ export default function PortfolioContainer() {
   return (
     <div>
       {/* We are passing the currentPage from state and the function to update it */}
-      <Navigation />
       <Router>
+      <Navigation />
         <div className="flex-column justify-flex-start min-100-vh" id="header">
           
           <div className="container">
@@ -24,7 +23,15 @@ export default function PortfolioContainer() {
               {/* Define routes using the Route component to render different page components at different paths */}
               {/* Define a default route that will render the Home component */}
               <Route 
-                path="/React-Portfolio/" 
+                path="/" 
+                element={<About />} 
+              />
+              <Route 
+                path="/about" 
+                element={<About />} 
+              />
+              <Route 
+                path="/React-Portfolio" 
                 element={<About />} 
               />
               {/* Define a route that will take in variable data */}
@@ -44,8 +51,8 @@ export default function PortfolioContainer() {
           </div>
           
         </div>
-      </Router>
       <Footer />
+      </Router>
       {/* Herewe are calling the renderPage method which will return a component  */}
       
     </div>

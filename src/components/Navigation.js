@@ -28,7 +28,7 @@ export default function Navigation(){
         <footer class="blockquote-footer" className="subP" style={styles.subP}>Full-Stack Developer</footer></p>
       <ul class="navbar-nav" id="navList">
         <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="/">Home</a>
+          <a class="nav-link active" aria-current="page" href="/React-Portfolio">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="portfolio">Projects</a>
