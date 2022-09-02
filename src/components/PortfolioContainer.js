@@ -36,15 +36,15 @@ export default function PortfolioContainer() {
               />
               {/* Define a route that will take in variable data */}
                <Route 
-                path="/contact" 
+                path="/React-Portfolio/contact" 
                 element={<Contact />} 
               />
               <Route
-                path="/portfolio"
+                path="/React-Portfolio/portfolio"
                 element={<Project />}
                 />
               <Route
-                path="/resume"
+                path="/React-Portfolio/resume"
                 element={<Resume />}
                 /> 
             </Routes>
