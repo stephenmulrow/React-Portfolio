@@ -16,9 +16,11 @@ const styles = {
 
 function Navigation({ currentPage, handlePageChange }) {
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item">
+    <ul className="nav nav-tabs" id="header-bg" width="device-width">
+      <p className="p" style={styles.p}>Stephen Mulrow        <footer class="blockquote-footer" className="subP" style={styles.subP}>Full-Stack Developer</footer></p>
+      <li className="nav-item" id="navItem">
         <a
+          id="navList"
           href="#about"
           onClick={() => handlePageChange('About')}
           // This is a conditional (ternary) operator that checks to see if the current page is "Home"
@@ -30,6 +32,7 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          id="navList"
           href="#project"
           onClick={() => handlePageChange('Project')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -40,6 +43,7 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          id="navList"
           href="#resume"
           onClick={() => handlePageChange('Resume')}
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
@@ -50,6 +54,7 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          id="navList"
           href="#contact"
           onClick={() => handlePageChange('Contact')}
           // Check to see if the currentPage is `Contact`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link

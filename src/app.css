@@ -68,4 +68,11 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   justify-content: flex-end;
   position: relative;
   font-size: large;
+  color: black;
+}
+
+#resume-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
 }

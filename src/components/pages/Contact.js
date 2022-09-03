@@ -1,26 +1,18 @@
 import React from "react";
+import LinkedIn from "../../images/linkedin.svg"
 
 export default function Contact() {
   return(
-  <main><div id="header">
-    <p> If you would like to get in touch with me directly, please fill out the form below and I will be happy to get back to you in a timely manner.</p>
-    <form type="input">
-    <label for="email">Enter your email:</label>
-    <br></br>
-<input type="email" id="email" name="email" placeholder="example@email.com"></input>
-<br></br>
-    Enter your name
-    <br></br>
-<input type="name" id="name" name="name"></input>
-<br></br>
-    Your message:
-    <br></br>
-    <textarea rows = "5" cols = "60" name = "description">
-         </textarea>
-<br></br>
-    <br></br>
-    </form>
-    
+  <main>
+    <div className="container">
+      <ul class= "container">
+        <li>smulrow@gmail.com</li>
+        <li>(602)-330-8707</li>
+        <li>github.com/stephenmulrow</li>
+        <li>      
+        <a href="https://www.linkedin.com/in/stephen-m-b45b30153/" target="blank"><img src={LinkedIn} alt="linked in icon" height="30px"></img></a>
+        </li> 
+      </ul>
     </div>
   </main>
   )

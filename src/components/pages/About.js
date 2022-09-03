@@ -15,7 +15,7 @@ const styles = {
 
 export default function About() {
   return (
-    <main>
+    <main id="header">
     <div class = "container">
       <h1>Who Am I?</h1>
       <p> 
@@ -25,7 +25,7 @@ export default function About() {
        alt="grad pic" id="images"/>
     </div>
     <div class="card2">
-    <div class="card-body">
+    <div class="container">
       <h5 class="card-title" className="subHeader" style={styles.subHeader}>Skills</h5>
       <ul>
         <li>JavaScript</li>
