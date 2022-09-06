@@ -78,10 +78,11 @@ https://stephenmulrow.github.io/Weather-Dashboard/" target="blank" class="btn bt
     <div class="card-body">
       <h5 class="card-title">Work-Day Scheduler</h5>
       <p class="card-text">This application is perfect for the busy professional. With time slots each hour, the user can enter in notes or reminders throughout the day to keep track of their tasks. Also, each hour is color-coded based on what time of day the user is accessing the application. Uses moment.js, express.js, and localStorage.</p>
+      <body width = "device-width">
       <img src= {workdayScheduler} alt="screenshot of workday scheduler" id="images"></img>
       <a href="https://stephenmulrow.github.io/Work-Day-Scheduler/
       " target="blank" class="btn btn-secondary
-">Take a Look</a>
+">Take a Look</a></body>
     </div>
   </div>
   </main>
