@@ -76,3 +76,8 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   justify-content: center;
   flex-wrap: wrap;
 }
+
+#buttonStyle {
+  display: flex;
+  justify-content: space-between
+}
