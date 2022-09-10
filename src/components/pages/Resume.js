@@ -6,14 +6,19 @@ const styles={
   alignItems: 'center',
   justifyContent: 'center',
   height: '100vh',
-}
+},
+p: {
+  fontFamily: "serif",
+  color: "#730F0F",
+  fontSize: 45
+},
 }
 
 export default function Resume() {
   return (
     <div id="header" style={styles.link}>
     <div id="container">
-      <h1>Click the link below to download my Resume!</h1>
+      <h1 style={styles.p}>Click the link below to download my Resume!</h1>
       <br>
       </br>
       <br>

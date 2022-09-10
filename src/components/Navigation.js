@@ -3,14 +3,19 @@ import { Link } from 'react-router-dom';
 
 const styles = {
   p: {
-    fontSize: 45,
     fontFamily: "serif",
-    fontColor: "black"
+    color: "#730F0F",
+    fontSize: 45
   },
   subP: {
     fontSize: 25,
     fontFamily: "serif",
     fontStyle: "italic"
+  },
+  list: {
+    fontFamily: "monospace",
+    color: "#730F0F",
+    fontSize: 20
   }
 }
 
@@ -20,6 +25,7 @@ function Navigation({ currentPage, handlePageChange }) {
       <p className="p" style={styles.p}>Stephen Mulrow        <footer class="blockquote-footer" className="subP" style={styles.subP}>Full-Stack Developer</footer></p>
       <li className="nav-item" id="navItem">
         <a
+          style={styles.list}
           id="navList"
           href="#about"
           onClick={() => handlePageChange('About')}
@@ -32,6 +38,7 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          style={styles.list}
           id="navList"
           href="#project"
           onClick={() => handlePageChange('Project')}
@@ -43,6 +50,7 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          style={styles.list}
           id="navList"
           href="#resume"
           onClick={() => handlePageChange('Resume')}
@@ -54,6 +62,7 @@ function Navigation({ currentPage, handlePageChange }) {
       </li>
       <li className="nav-item">
         <a
+          style={styles.list}
           id="navList"
           href="#contact"
           onClick={() => handlePageChange('Contact')}
