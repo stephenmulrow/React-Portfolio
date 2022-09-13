@@ -12,6 +12,10 @@ p: {
   color: "#730F0F",
   fontSize: 45
 },
+buton : {
+  alignItems: 'center',
+  justifyContent: 'center',
+}
 }
 
 export default function Resume() {
@@ -24,7 +28,7 @@ export default function Resume() {
       <br>
       </br>
       <p>
-      <a href="https://docs.google.com/document/d/1x_LSIMXQNr18-VRuLAHT82JDCFCSrU1baQ3Bc_w65jk/edit" target="blank" class="btn btn-secondary">Resume</a>
+      <a href="https://docs.google.com/document/d/1x_LSIMXQNr18-VRuLAHT82JDCFCSrU1baQ3Bc_w65jk/edit" target="blank" class="btn btn-dark" style={styles.buton}>Resume</a>
       </p>
       <br></br>
       <br></br>

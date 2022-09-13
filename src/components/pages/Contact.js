@@ -3,41 +3,57 @@ import LinkedIn from "../../images/linkedin.svg"
 
 const styles={
   link:  {
-  display: 'flex',
-  alignItems: 'center',
-  justifyContent: 'center',
-  height: '50vh',
-},
-list: {
-  fontFamily: "monospace",
-  color: "#730F0F",
-  fontSize: 20
-},
-p: {
-  fontFamily: "serif",
-  color: "#730F0F",
-  fontSize: 45
-},
-icon: {
-  color: "#730F0F"
-}
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    height: '100vh',
+  },
+  p: {
+    fontFamily: "serif",
+    color: "#730F0F",
+    fontSize: 45
+  },
+  p2: {
+    fontFamily: "serif",
+    color: "#730F0F",
+    fontSize: 29
+  },
 }
 
 export default function Contact() {
   return(
-  <div>
     <div id="header" style={styles.link}>
-      <h1 style={styles.p}>Contact Information:</h1>
-      <ul class= "container" style={styles.list}>
-        <li>smulrow@gmail.com</li>
-        <li>(602)-330-8707</li>
-        <li>github.com/stephenmulrow</li>
-        <li>      
-        <a href="https://www.linkedin.com/in/stephen-m-b45b30153/" target="blank"><img src={LinkedIn} alt="linked in icon" height="30px" style={styles.icon}></img></a>
-        </li> 
-        <br></br>
-      </ul>
+    <div id="container">
+      <h1 style={styles.p}>Contact Me!</h1>
+      <br>
+      </br>
+      <br>
+      </br>
+      <p style={styles.p2}>
+      smulrow@gmail.com
+      <br></br>
+      (602)-330-8707
+      <br></br>
+      github.com/stephenmulrow
+      </p>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
     </div>
-  </div>
+    </div>
   )
 }
