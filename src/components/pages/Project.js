@@ -17,12 +17,12 @@ const styles = {
   },
   list: {
     fontFamily: "monospace",
-    color: "#730F0F",
+    color: "white",
     fontSize: 24
   },
   content: {
     fontFamily: "monospace",
-    color: "#730F0F",
+    color: "white",
     fontSize: 17
   }
 }

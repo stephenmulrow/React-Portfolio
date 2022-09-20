@@ -9,7 +9,7 @@ const styles={
 },
 p: {
   fontFamily: "serif",
-  color: "#730F0F",
+  color: "white",
   fontSize: 45
 },
 buton : {

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const styles = {
   p: {
     fontFamily: "serif",
-    color: "#730F0F",
+    color: "white",
     fontSize: 45
   },
   subP: {
@@ -14,7 +14,7 @@ const styles = {
   },
   list: {
     fontFamily: "monospace",
-    color: "#730F0F",
+    color: "gray",
     fontSize: 20
   }
 }
@@ -45,7 +45,7 @@ function Navigation({ currentPage, handlePageChange }) {
           // Check to see if the currentPage is `Blog`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
           className={currentPage === 'Project' ? 'nav-link active' : 'nav-link'}
         >
-          Portfolio
+          Projects
         </a>
       </li>
       <li className="nav-item">

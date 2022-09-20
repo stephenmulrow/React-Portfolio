@@ -1,19 +1,18 @@
 .background {
-  background-color: #e3d4ad;
-background-image: url("https://www.transparenttextures.com/patterns/dark-wall.png");
+  background-color: #0a0414;
+  background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
 /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 #header {
-  background-color: #e3d4ad;
-  background-image: url("https://www.transparenttextures.com/patterns/binding-dark.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #0a0414;
+background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
 }
 
 #header-bg {
-  background-color: #e3d4ad;
-background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
-/* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+  background-color: #151e4d;
+  background-image: url("https://www.transparenttextures.com/patterns/carbon-fibre-v2.png");
 }
 
 
@@ -81,3 +80,24 @@ background-image: url("https://www.transparenttextures.com/patterns/broken-noise
   display: flex;
   justify-content: space-between
 }
+
+#video {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  color: white;
+}
+/* 
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,.4);
+} */

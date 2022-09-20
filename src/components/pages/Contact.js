@@ -10,12 +10,12 @@ const styles={
   },
   p: {
     fontFamily: "serif",
-    color: "#730F0F",
+    color: "white",
     fontSize: 45
   },
   p2: {
     fontFamily: "serif",
-    color: "#730F0F",
+    color: "white",
     fontSize: 29
   },
 }
