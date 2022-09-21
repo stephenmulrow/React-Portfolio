@@ -14,7 +14,7 @@ const styles = {
   },
   
   content: {
-    fontFamily: "monospace",
+    fontFamily: "cambria",
     color: "black",
     fontSize: 17,
   },
@@ -36,9 +36,9 @@ export default function About() {
       <video src={backgroundVideo} autoPlay loop muted id="video"></video>
     <div class = "container">
       <div className="content">
-      <h1 style={styles.header}>Who am I?</h1>
+      <h1 style={styles.header}>About Me</h1>
       <p style={styles.content}> 
-       Thank you for checking out my website! I am a Full-Stack developer with experince using various languages and technologies. Some of the projects I have created can be found in the Projects tab. The endless possibilities of what can be created using technology motivate me each day to keep getting better.
+       Thank you for checking out my website! I'm an Arizona native and a Full-Stack developer with experince using various languages and technologies. Some of the projects I have created can be found in the Projects tab. The endless possibilities of what can be created using technology motivate me each day to keep getting better.
       </p>
       <img src="https://avatars.githubusercontent.com/u/106113164?v=4" class="grad-pic"
        alt="grad pic" id="images"/>
