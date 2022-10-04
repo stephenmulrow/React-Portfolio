@@ -1,27 +1,27 @@
 import React from "react";
-import backgroundVideo from '../../images/road.mp4'
+import backgroundVideo from '../../images/videobg.mp4'
 
 const styles = {
   subHeader: {
     fontSize: 30,
     fontStyle: "italic",
-    color: "black"
+    color: "white"
   },
   
   header : {
     fontFamily: "baskerville",
-    color: "black"
+    color: "white"
   },
   
   content: {
     fontFamily: "cambria",
-    color: "black",
+    color: "white",
     fontSize: 17,
   },
 
   list: {
     fontFamily: "monospace",
-    color: "black"
+    color: "white"
   }
 }
 
