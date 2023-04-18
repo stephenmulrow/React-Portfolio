@@ -1,5 +1,5 @@
 import React from "react";
-import backgroundVideo from '../../images/videobg.mp4'
+import Logo from "../../images/S.png"
 
 const styles = {
   subHeader: {
@@ -19,6 +19,10 @@ const styles = {
     fontSize: 17,
   },
 
+  background: {
+    color: "blue"
+  },
+
   list: {
     fontFamily: "monospace",
     color: "white"
@@ -31,16 +35,22 @@ const styles = {
 
 export default function About() {
   return (
-    <main>
-      <div className="overlay"></div>
-      <video src={backgroundVideo} autoPlay loop muted id="video"></video>
+    
+
+
+
+
+
+
+
+    <main class= "background">
     <div class = "container">
       <div className="content">
       <h1 style={styles.header}>About Me</h1>
       <p style={styles.content}> 
-       Thank you for checking out my website! I'm an Arizona native and a Full-Stack developer with experince using various languages and technologies. Some of the projects I have created can be found in the Projects tab. The endless possibilities of what can be created using technology motivate me each day to keep getting better.
+       Thank you for checking out my website! I am an Arizona native and still call the desert home today. Graduating from the University of Arizona in 2019, with a background in business and finance, I have made the step to change gears and focus on web development and web design. I am always eager to continue to learn and grow in my skills. Click through the tabs at the top of the page to see examples of my work, my resume, and how to get in touch with me. 
       </p>
-      <img src="https://avatars.githubusercontent.com/u/106113164?v=4" class="grad-pic"
+      <img src= {Logo} class="grad-pic"
        alt="grad pic" id="images"/>
     </div>
     <div class="card2">
